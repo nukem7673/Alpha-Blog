@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+	
+	.header_container{
+		height: 80px;
+		background-color: black;
+		padding-top: 35px
+	}
+	h1 {
+		font-family: 'Raleway', sans-serif;
+		margin: 0px;
+		color: white;
+		text-align: center;
+		font-size: 40px;
+	}
+	#bg {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	}
+	
+	.three {
+		margin: auto auto;
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+	}
+	a {
+		padding: 0 20px 100px 20px;
+		margin: 30px 200x 0px 200px;
+		font-family: 'Raleway', sans-serif;
+		color: inherit;
+		text-decoration: none;
+		font-size: 20px;
+		border-style: solid;
+		border-width: 3px;
+	}
+	</style>
+<head>
+
+<body>
+<div class="header_container">
+<h1>Welcome to My Homepage</h1>
+</div>
+
+<div class="main_body">
+<img id="bg" src="http://s9.favim.com/orig/130831/beautiful-colorfull-cute-landscape-Favim.com-888937.jpg">
+</div>
+
+<%= link_to 'About Me', about_path %>
+<%= link_to image_tag('Tucker.png'), tucker_path %>
+<%= link_to image_tag('esmae.png'), esmae_path %>
+</body>
+</html>
