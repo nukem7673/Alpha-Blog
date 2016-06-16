@@ -29,7 +29,7 @@
 		display: inline-block;
 		text-align: center;
 	}
-	a {
+	.square {
 		padding: 0 20px 100px 20px;
 		margin: 30px 200x 0px 200px;
 		font-family: 'Raleway', sans-serif;
@@ -51,8 +51,16 @@
 <img id="bg" src="http://s9.favim.com/orig/130831/beautiful-colorfull-cute-landscape-Favim.com-888937.jpg">
 </div>
 
-<%= link_to 'About Me', about_path %>
-<%= link_to image_tag('Tucker.png'), tucker_path %>
-<%= link_to image_tag('esmae.png'), esmae_path %>
+<div class="three">
+	<div class="square">
+		<%= link_to 'About Me', about_path %>
+		</div>
+	<div class="square">
+		<%= link_to image_tag('Tucker.png'), tucker_path %>
+		</div>
+	<div class="square">
+		<%= link_to image_tag('esmae.png'), esmae_path %>
+		</div>
+</div>
 </body>
 </html>
